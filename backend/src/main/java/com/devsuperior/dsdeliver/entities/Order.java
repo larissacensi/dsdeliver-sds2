@@ -39,8 +39,7 @@ public class Order implements Serializable{
 	
 	public Order() {}
 
-	public Order(Long id, String adress, Double latitude, Double longiude, Instant moment, OrderStatus status,
-			Double total) {
+	public Order(Long id, String adress, Double latitude, Double longiude, Instant moment, OrderStatus status) {
 		super();
 		this.id = id;
 		this.address = adress;
@@ -48,7 +47,6 @@ public class Order implements Serializable{
 		this.longitude = longiude;
 		this.moment = moment;
 		this.status = status;
-		this.total = total;
 	}
 
 	public Long getId() {
