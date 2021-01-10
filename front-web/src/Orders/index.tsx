@@ -8,7 +8,6 @@ import ProductsList from './ProductsList';
 import StepsHeader from './StepsHeader';
 import './styles.css';
 import { OrderLocationData, Product } from './types';
-import { ToastContainer } from 'react-toastify';
 import { toast } from 'react-toastify';
 
 function Orders() {
